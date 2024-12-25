@@ -2,6 +2,12 @@
 
 import Head from "next/head";
 
+export const metadata = {
+  title: "Privacy Policy",
+  description: `This Privacy Policy describes how we collect, use, and protect your
+          personal information when you participate in the Happy Tokens program`,
+};
+
 export default function PrivacyPolicy() {
   return (
     <div className="bg-gray-50 min-h-screen py-10 px-5 sm:px-10 md:px-20 mt-[80px]">

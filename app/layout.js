@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
+import { BreadcrumbJsonLd } from "next-seo";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -11,7 +12,7 @@ const inter = Inter({
 export const metadata = {
   title: "Happy Tokens",
   description:
-    "Happy Tokens helps you earn 10-20% cashback while dining at your favorite restaurants.",
+    "Happy Tokens helps you earn 10-20% cashback while dining at your favorite shop.",
   keywords:
     "Happy Tokens, Cashback Dining, Restaurant Cashback, Earn Rewards, Save Money, Dining Deals, Best Cashback App, Restaurant Discounts",
   authors: [{ name: "Happy Tokens", url: "" }],
@@ -21,7 +22,7 @@ export const metadata = {
   openGraph: {
     title: "Happy Tokens",
     description:
-      "Happy Tokens helps you earn 10-20% cashback while dining at your favorite restaurants.",
+      "Happy Tokens helps you earn 10-20% cashback while dining at your favorite shop.",
     url: "https://happytokens.in/",
     type: "website",
     siteName: "Happy Tokens",
@@ -57,6 +58,27 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <BreadcrumbJsonLd
+        useAppDir={true}
+        itemListElements={[
+          {
+            position: 1,
+            name: "Happy Tokens Get Cashback upto 20%",
+            item: "https://happytokens.in/",
+          },
+
+          {
+            position: 2,
+            name: "Contact Us",
+            item: "https://happytokens.in/contact",
+          },
+          {
+            position: 3,
+            name: "Privacy Policy",
+            item: "https://happytokens.in/privacy-policy",
+          },
+        ]}
+      />
       <body
         className={`${inter.variable} bg-gradient-to-r from-[#E8F5F9] via-[#F5F4F8] to-[#F7F4DA]`}
       >

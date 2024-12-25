@@ -2,6 +2,11 @@ import { INSTA_CHAT_LINK, MAIL, WHATSAPP_LINK } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Contact Us",
+  description: ` We're here to help. Chat to our friendly team 24/7 and get set up and`,
+};
+
 export default function Contact() {
   const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.979202023854!2d77.63525299999999!3d12.909058199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2f9ebf593bb7e5fd%3A0x81be059b3d7e434!2sHappy%20Tokens!5e0!3m2!1sen!2sin!4v1735126849285!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade`;
   return (
