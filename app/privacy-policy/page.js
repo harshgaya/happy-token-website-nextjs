@@ -45,8 +45,8 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <strong>Transaction Information:</strong> Details of your
-            transactions, such as the amount spent, the restaurant, and the date
-            of the transaction.
+            transactions, such as the amount spent, the shops or online, and the
+            date of the transaction.
           </li>
           <li>
             <strong>Device Information:</strong> Information about the device

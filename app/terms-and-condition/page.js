@@ -36,8 +36,8 @@ export default function Terms() {
         <ul className="list-disc pl-6 mb-6">
           <li>
             <strong>Happy Tokens:</strong> Virtual cashback rewards issued by
-            [Your Company Name] ("we," "us," or "our") to users for qualifying
-            transactions at participating restaurants.
+            Happy Tokens ("we," "us," or "our") to users for qualifying
+            transactions at participating shops or online.
           </li>
           <li>
             <strong>User:</strong> An individual participating in the Program.
@@ -66,11 +66,11 @@ export default function Terms() {
         <ol className="list-decimal pl-6 mb-6">
           <li>
             Happy Tokens are earned as cashback for qualifying payments made at
-            participating restaurants through our platform.
+            participating shops or online through our platform.
           </li>
           <li>
             The percentage of cashback earned will be specified at the time of
-            the transaction and may vary by restaurant or promotion.
+            the transaction and may vary by shops or online.
           </li>
           <li>
             Tokens are credited to your account within [Insert Timeframe] after

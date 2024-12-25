@@ -157,7 +157,18 @@ export default function Footer() {
       >
         <h1 className="text-3xl font-extrabold">Head Office</h1>
         <div className="flex flex-col gap-2">
-          <NavItem link={""} title={`12th Floor, Electronic City, Bengaluru`} />
+          <NavItem
+            link={"/contact"}
+            title={
+              <>
+                #1207/343, 9th MAIN, 7th SECTOR, HSR LAYOUT,
+                <br />
+                Bengaluru, KA, 560102
+                <br />
+                India
+              </>
+            }
+          />
         </div>
       </motion.div>
     </footer>

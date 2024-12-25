@@ -50,7 +50,7 @@ export default function Header() {
           <NavItem
             handleOpen={handleOpen}
             title={"Contact"}
-            link={WHATSAPP_LINK}
+            link={"/contact"}
           />
           <NavItem
             handleOpen={handleOpen}
@@ -73,7 +73,7 @@ export default function Header() {
       <div className="hidden md:flex items-center gap-8">
         <NavItem title={"About"} link={"/#about"} />
         <NavItem title={"Testimonials"} link={"/#testimonial"} />
-        <NavItem title={"Contact"} link={WHATSAPP_LINK} />
+        <NavItem title={"Contact"} link={"/contact"} />
         <NavItem title={"How It Works"} link={"/#how"} />
 
         <Link href={INSTA_LINK}>
