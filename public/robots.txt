@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://happytokens.in
+
+# Sitemaps
+Sitemap: https://happytokens.in/sitemap.xml
