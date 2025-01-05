@@ -197,7 +197,7 @@ export default function Terms() {
           If you have any questions about these Terms or the Program, please
           contact us at:
         </p>
-        <p className="text-blue-500">happytoken@gmail.com</p>
+        <p className="text-blue-500">enquiry.adpro@gmail.com</p>
 
         <hr className="border-t-2 border-gray-300 my-6" />
 

@@ -15,12 +15,16 @@ export default function Header() {
 
   return (
     <header className="w-full h-[80px] bg-white fixed top-0 flex justify-between items-center px-10 z-20">
-      <Image
-        src={"/header/logo-ht.png"}
-        height={62}
-        width={117}
-        alt="happy token logo"
-      />
+      <Link href={"/"}>
+        {" "}
+        <Image
+          src={"/header/logo-ht.png"}
+          height={62}
+          width={117}
+          alt="happy token logo"
+        />
+      </Link>
+
       <Image
         onClick={handleOpen}
         src={"/header/menu-ht.png"}

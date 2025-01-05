@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import { BreadcrumbJsonLd } from "next-seo";
+import Head from "next/head";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -58,27 +59,29 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <BreadcrumbJsonLd
-        useAppDir={true}
-        itemListElements={[
-          {
-            position: 1,
-            name: "Happy Tokens Get Cashback upto 20%",
-            item: "https://happytokens.in/",
-          },
+      <Head>
+        <BreadcrumbJsonLd
+          useAppDir={true}
+          itemListElements={[
+            {
+              position: 1,
+              name: "Happy Tokens Get Cashback upto 20%",
+              item: "https://happytokens.in/",
+            },
 
-          {
-            position: 2,
-            name: "Contact Us",
-            item: "https://happytokens.in/contact",
-          },
-          {
-            position: 3,
-            name: "Privacy Policy",
-            item: "https://happytokens.in/privacy-policy",
-          },
-        ]}
-      />
+            {
+              position: 2,
+              name: "Contact Us",
+              item: "https://happytokens.in/contact",
+            },
+            {
+              position: 3,
+              name: "Privacy Policy",
+              item: "https://happytokens.in/privacy-policy",
+            },
+          ]}
+        />
+      </Head>
       <body
         className={`${inter.variable} bg-gradient-to-r from-[#E8F5F9] via-[#F5F4F8] to-[#F7F4DA]`}
       >
