@@ -28,10 +28,10 @@ export default function PrivacyPolicy() {
         </p>
 
         <p className="text-lg mb-4">
-          This Privacy Policy describes how we collect, use, and protect your
+          {` This Privacy Policy describes how we collect, use, and protect your
           personal information when you participate in the Happy Tokens program
           (the "Program"). By using the Program, you agree to the terms of this
-          Privacy Policy. If you do not agree, you may not participate.
+          Privacy Policy. If you do not agree, you may not participate.`}
         </p>
 
         <hr className="border-t-2 border-gray-300 mb-6" />
@@ -136,7 +136,8 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <strong>Data Deletion:</strong> You may request the deletion of your
-            account and personal information by contacting us at [Insert Email].
+            account and personal information by contacting us at
+            enquiry.adpro@gmail.com.
           </li>
         </ul>
 

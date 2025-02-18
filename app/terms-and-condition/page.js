@@ -73,8 +73,8 @@ export default function Terms() {
             the transaction and may vary by shops or online.
           </li>
           <li>
-            Tokens are credited to your account within [Insert Timeframe] after
-            the transaction is verified.
+            Tokens are credited to your account immediately after the
+            transaction is verified.
           </li>
           <li>Happy Tokens cannot be purchased, transferred, or sold.</li>
         </ol>
@@ -174,7 +174,7 @@ export default function Terms() {
           <li>
             Any disputes arising from these Terms or the Program will be
             resolved through binding arbitration in accordance with the rules of
-            [Insert Arbitration Body].
+            Court.
           </li>
           <li>
             By agreeing to these Terms, you waive your right to participate in
@@ -187,7 +187,7 @@ export default function Terms() {
         </h2>
         <p className="mb-6">
           These Terms are governed by and construed in accordance with the laws
-          of [Insert Jurisdiction].
+          of Bengaluru Jurisdiction.
         </p>
 
         <h2 className="text-2xl font-semibold text-customBlue3 mb-3">

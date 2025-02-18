@@ -98,12 +98,12 @@ export default function Testimonial() {
           className="min-w-[300px] flex-shrink-0"
         >
           <TestimonialTile
-            image={"/home/testimonial/test-3.jpg"}
+            image={""}
             para={
               "Happy Token is a game changer! Every time I dine at my favorite restaurants, I get 10-20% cashback effortlessly. It's so easy to use, and the rewards add up quickly. It's like getting paid to enjoy great food!"
             }
-            name={"Priya"}
-            designation={"Manager"}
+            name={""}
+            designation={""}
           />
         </motion.div>
 
@@ -115,12 +115,12 @@ export default function Testimonial() {
           className="min-w-[300px] flex-shrink-0"
         >
           <TestimonialTile
-            image={"/home/testimonial/test-1.jpeg"}
+            image={""}
             para={
               "I love eating out, and Happy Token makes it even better! I’ve saved so much money thanks to their cashback system. It’s super convenient, and I feel rewarded every time I enjoy a meal. Highly recommend!"
             }
-            name={"Suresh"}
-            designation={"Engineer"}
+            name={""}
+            designation={""}
           />
         </motion.div>
 
@@ -132,12 +132,12 @@ export default function Testimonial() {
           className="min-w-[300px] flex-shrink-0"
         >
           <TestimonialTile
-            image={"/home/testimonial/test-2.jpg"}
+            image={""}
             para={
               "Happy Token has become my dining companion. Knowing I get 10-20% cashback makes every meal feel like a win. It’s easy to use, and the savings are real. Eating out never felt this rewarding!"
             }
-            name={"Rahul"}
-            designation={"Food Lover"}
+            name={""}
+            designation={""}
           />
         </motion.div>
       </div>
