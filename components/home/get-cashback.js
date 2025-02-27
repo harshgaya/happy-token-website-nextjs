@@ -47,7 +47,7 @@
 // }
 
 "use client";
-import { WATCH_VIDEO } from "@/lib/constants";
+import { GOOGLE_PLAY, WATCH_VIDEO } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -86,6 +86,15 @@ export default function GetCashback() {
             height={81}
             width={334}
             alt="watch video"
+          />
+        </Link>
+        <Link href={GOOGLE_PLAY}>
+          <Image
+            className="mt-10 md:mt-10"
+            src={"/home/googleplay.webp"}
+            height={81}
+            width={334}
+            alt="Play Store Link"
           />
         </Link>
       </div>
