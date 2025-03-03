@@ -161,11 +161,26 @@ export default function Footer() {
             link={"/contact"}
             title={
               <>
-                #1207/343, 9th MAIN, 7th SECTOR, HSR LAYOUT,
+                Corporate Office: ADPRO #1207/343, 9th MAIN, 7th SECTOR, HSR
+                LAYOUT,
                 <br />
                 Bengaluru, KA, 560102
                 <br />
                 India
+              </>
+            }
+          />
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <NavItem
+            link={"/contact"}
+            title={
+              <>
+                Administrative Office: ADPRO #87/3, 2nd block, Ganesh Mandir
+                Road
+                <br />
+                Bangalore -560028
               </>
             }
           />
