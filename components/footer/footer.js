@@ -180,7 +180,7 @@ export default function Footer() {
                 Administrative Office: ADPRO #87/3, 2nd block, Ganesh Mandir
                 Road
                 <br />
-                Bangalore -560028
+                Bangalore, KA, 560028
               </>
             }
           />
