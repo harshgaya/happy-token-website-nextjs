@@ -1,0 +1,10 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.softplix.happytoken.happy_tokens",
+      "sha256_cert_fingerprints": [
+        "DC:B7:16:5E:16:60:A9:60:B9:E3:10:E5:1E:88:FE:C0:F1:AF:23:08:6E:1E:26:F9:63:E5:8B:0B:97:99:46:A6"
+      ]
+    }
+  }]
