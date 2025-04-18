@@ -172,7 +172,7 @@ export default function Footer() {
           />
         </div>
 
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <NavItem
             link={"/contact"}
             title={
@@ -184,7 +184,7 @@ export default function Footer() {
               </>
             }
           />
-        </div>
+        </div> */}
       </motion.div>
     </footer>
   );
